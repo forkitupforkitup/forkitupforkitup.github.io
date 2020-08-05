@@ -1,0 +1,64 @@
+* {
+    font-family: 'Sorts Mill Goudy', serif;
+}
+title {
+    display: none;
+}
+body {
+    color: rgb(192 192 192);
+    height: 100%;
+    background-color: rgb(10 10 10);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+input {
+    /* display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: space-evenly; */
+    background-color: rgb(210 210 210);
+    font-size: 20pt;
+    font-style: normal;
+    width: 50%;
+
+    padding: 5px 5px;
+    border: 1rem rgb(192 192 192);
+    border-radius: 10px;
+}
+button {
+    background-color: rgb(230 230 230);
+    padding: 3px;
+    width: 3em;
+    font-size: 30px;
+}
+button:hover, input:hover {
+    box-shadow: 0 5px 5px 0 rgba(192,192,192,0.24), 0 12px 20px 0 rgba(100,100,100,0.19)
+}
+
+table {
+    border: 1px solid rgb(192 192 192);
+    border-radius: 5px;
+    margin: 10px;
+}
+th {
+    font-style: italic;
+    text-align: center;
+    border-bottom: 2px || solid || rgb(192 192 192)
+}
+tr {
+    text-align: left;
+}
+td {
+    padding: 3px;
+}
+
+#cbAttribution {
+    max-width: 40%;
+    height: auto;
+    justify-self: flex-end;
+  }
